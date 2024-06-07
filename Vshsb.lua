@@ -45,3 +45,33 @@ local Quit = QuitDivider:Button{
        }
    end
 }
+— —
+local Main = UI:Tab{
+   Name = "Universal"
+}
+
+local Divider = Main:Divider{
+   Name = ""
+}
+local QuitDivider = Main:Divider{
+   Name = ""
+}
+
+-- All functions have the Name, Description and Callback arguments so you can use them whenever ig yeah
+local KillAll = Divider:Button{
+   Name = "Свастон",
+   Description = "эта функция работает не на всех плейсах",
+   Callback = function()
+       
+   end
+}
+
+local Quit = QuitDivider:Button{
+   Name = "ВЫЙТИ",
+   Callback = function()
+       UI:Quit{
+           Message = "Иди на хуй...", -- closing message
+           Length = 1 -- seconds the closing message shows for
+       }
+   end
+}
