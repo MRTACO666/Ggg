@@ -7,7 +7,7 @@ local UI = Lib:Create{
 }
 
 local Main = UI:Tab{
-   Name = "Player"
+   Name = "Troll"
 }
 
 local Divider = Main:Divider{
@@ -15,7 +15,7 @@ local Divider = Main:Divider{
 }
 
 local QuitDivider = Main:Divider{
-   Name = "Quit"
+   Name = ""
 }
 
 -- All functions have the Name, Description and Callback arguments so you can use them whenever ig yeah
