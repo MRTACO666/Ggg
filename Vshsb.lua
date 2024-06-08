@@ -47,7 +47,7 @@ local Quit = QuitDivider:Button{
 }
 — —
 local Main = UI:Tab{
-   Name = "Universal"
+   Name = "MM2"
 }
 
 local Divider = Main:Divider{
@@ -59,10 +59,10 @@ local QuitDivider = Main:Divider{
 
 -- All functions have the Name, Description and Callback arguments so you can use them whenever ig yeah
 local KillAll = Divider:Button{
-   Name = "Свастон",
+   Name = "script 1",
    Description = "эта функция работает не на всех плейсах",
    Callback = function()
-       
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/absolutelyxfunny/xHelper/main/MurderMystery2"))
    end
 }
 
